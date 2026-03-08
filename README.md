@@ -14,9 +14,13 @@ The primary goal of this work was to develop a software instrument, which takes 
 <a name="description"></a>
 ## Description
 
+
+![your figure](https://github.com/davidhro/DE1_projekt_2/blob/main/pictures/nexys-a7-callout.png)
+
+
 The data, extracted from the video, are in this case coordinates of boundaries around objects in the image, found by a simple computer vision algorithm. 
 
-The modulated audio data are the amplitudes of 64 sine wave oscillator. The first oscillator is the root note (frequency of the MIDI note, which is currently played), the rest of the oscillators are harmonics (root note frequency multiplied by *n*, where *n* is a number from 2 to 64). A granulator, which can only be modified by the video data, samples the synthesized data from the oscillator and processes them. The granulator sound can be then mixed with the original signal to further modify the output audio signal.
+The modulated audio data are the amplitudes of 64 sine wave oscillators. The first oscillator is the root note (frequency of the MIDI note, which is currently played), the rest of the oscillators are harmonics (root note frequency multiplied by *n*, where *n* is a number from 2 to 64). A granulator, which can only be modified by the video data, samples the synthesized data from the oscillator and processes them. The granulator sound can be then mixed with the original signal to further modify the output audio signal.
 
 ADSR control unit is also present (and modifiable by the video data) to further shape the sound.
 
