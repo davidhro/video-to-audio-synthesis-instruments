@@ -24,7 +24,7 @@ The modulated audio data are the amplitudes and panning of 64 sine wave oscillat
 
 ADSR control unit is also present (and modifiable by the video data) to further shape the sound.
 
-The instrument also consists of an effects unit and a step sequencer. Both the effects unit and the sequencer can be configured to take the data, extracted from the video, to modulate the effects. Frequency shifter, waveshaper, chorus, delay, reverb and filter were picked due to a wide range of sound modifications, that can be achieved by combination of these effects. 
+The instrument also consists of an effects unit and a step sequencer. Both the effects unit and the sequencer can be, with exceptions (Res and Type parametrs of the filter effect), configured to take the data, extracted from the video, to modulate the effects. Frequency shifter, waveshaper, chorus, delay, reverb and filter were picked due to a wide range of sound modifications, that can be achieved by combination of these effects. 
 
 Output unit allows for audio driver settings, recording of the outgoing sound and gain, panning adjustments.
 
