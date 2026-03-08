@@ -18,6 +18,9 @@ The primary goal of this work was to develop a software instrument, which takes 
 
 
 
+The instrument also consists of an effects unit and a step sequencer. The effects unit can be configured to take the data, extracted from the video, to modulate the effects. Frequency shifter, waveshaper, chorus, delay, reverb and filter were picked due to a wide range of sound modifications, that can be achieved by combination of these effects. 
+
+Manual on the use of this instruments is available in the documentation folder.
 
 ### Known issues
 * While being run on Linux (Mint) with Bottles, it is not possible to use camera to acquire the video data. Therefore it is needed to use a video file as an input in this configuration. Also the program was unable to detect an external MIDI device, which makes it practically unusable on Linux (with the tested configuration).
