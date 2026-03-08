@@ -20,7 +20,7 @@
 
 
 ### Known issues
-* While being ran on Linux (Mint) with Bottles, t is not possible to use camera to acquire the video data. Therefore it is needed to use a video file as an input in this configfuration. Also the program was unable to detect an external MIDI device, which makes it practically unusable on Linux (with the tested configuration).
+* While being ran on Linux (Mint) with Bottles, it is not possible to use camera to acquire the video data. Therefore it is needed to use a video file as an input in this configfuration. Also the program was unable to detect an external MIDI device, which makes it practically unusable on Linux (with the tested configuration).
 
 
 <a name="resources"></a>
