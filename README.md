@@ -15,7 +15,7 @@ The primary goal of this work was to develop a software instrument, which takes 
 ## Description
 
 
-![your figure](https://github.com/davidhro/DE1_projekt_2/blob/main/pictures/nexys-a7-callout.png)
+![your figure](https://codeberg.org/davidhro/video-to-audio-synthesis-instrument-1/src/branch/main/documentation/pictures/instrument-1.png)
 
 
 The data, extracted from the video, are in this case coordinates of boundaries around objects in the image, found by a simple computer vision algorithm. 
