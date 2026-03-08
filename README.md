@@ -9,7 +9,7 @@
 <a name="objectives"></a>
 
 ## Objectives
-The primary goal of this work was to make a software instrument, which 
+The primary goal of this work was to make a software instrument, which takes video data as input and is able to synthesize audio from that input. In case of this instrument, an external MIDI device can be connected to play the instrument.
 
 
 <a name="description"></a>
