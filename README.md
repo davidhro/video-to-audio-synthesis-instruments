@@ -9,7 +9,7 @@
 <a name="objectives"></a>
 
 ## Objectives
-
+The primary goal of this work was to make a software instrument, which 
 
 
 <a name="description"></a>
