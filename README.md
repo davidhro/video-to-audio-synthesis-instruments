@@ -37,6 +37,7 @@ Manual on the use of this instrument is available in the documentation folder.
 
 <a name="resources"></a>
 ## Resources
+All of the resources (literature and so on) used to complete this instrument are cited in the full text of this thesis, available from the link below. 
 
 * Full text of the thesis (in Czech language): [Bachelor thesis](http://hdl.handle.net/11012/210871)
 * Executable (.exe) file with resources can be downloaded as a .zip file from this link: [instrument-1.zip](https://drive.google.com/file/d/1lqDwZQ3CtoBVO8veQoWEQ5xt-jy_xjvu/view?usp=drive_link)
