@@ -14,12 +14,18 @@ The primary goal of this work was to develop a software instrument, which takes 
 <a name="description"></a>
 ## Description
 
+The data, extracted from the video, are in this case coordinates of boundaries around objects in the image, found by a simple computer vision algorithm. 
+
+The modulated audio data are the amplitudes of 64 sine wave oscillator. The first oscillator is the root note (frequency of the MIDI note, which is currently played), the rest of the oscillators are harmonics (root note frequency multiplied by *n*, where *n* is a number from 2 to 64). A granulator, which can only be modified by the video data, samples the synthesized data from the oscillator and processes them. The granulator sound can be then mixed with the original signal to further modify the output audio signal.
+
+ADSR control unit is also present (and modifiable by the video data) to further shape the sound.
+
+The instrument also consists of an effects unit and a step sequencer. Both the effects unit and the sequencer can be configured to take the data, extracted from the video, to modulate the effects. Frequency shifter, waveshaper, chorus, delay, reverb and filter were picked due to a wide range of sound modifications, that can be achieved by combination of these effects. 
+
+Output unit allows for audio driver settings, recording of the outgoing sound and gain, panning adjustments.
 
 
-
-The instrument also consists of an effects unit and a step sequencer. The effects unit can be configured to take the data, extracted from the video, to modulate the effects. Frequency shifter, waveshaper, chorus, delay, reverb and filter were picked due to a wide range of sound modifications, that can be achieved by combination of these effects. 
-
-Manual on the use of this instruments is available in the documentation folder.
+Manual on the use of this instrument is available in the documentation folder.
 
 ### Known issues
 * While being run on Linux (Mint) with Bottles, it is not possible to use camera to acquire the video data. Therefore it is needed to use a video file as an input in this configuration. Also the program was unable to detect an external MIDI device, which makes it practically unusable on Linux (with the tested configuration).
