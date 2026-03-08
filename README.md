@@ -1,9 +1,10 @@
-# instrument-1
+# Video to audio synthesis - software instruments
 
 ### Table of contents
 
 * [Objectives](#objectives)
-* [Description](#description)
+* [instrument-1](#instrument-1)
+* [instrument-2](#instrument-2)
 * [Resources](#resources)
 
 <a name="objectives"></a>
@@ -11,8 +12,8 @@
 The primary goal of this work was to develop a software instrument, which takes video data as input and is able to synthesize audio from that input. In case of this instrument, an external MIDI device can be connected to play the instrument. The main challenge is to choose a right way to extract the data from the video along with the right way to synthesize or modulate the audio, in order to achieve something that sound interesting in the musical context.
 
 
-<a name="description"></a>
-## Description
+<a name="instrument-1"></a>
+## instrument-1
 
 
 ![instrument-1](https://codeberg.org/davidhro/video-to-audio-synthesis-instrument-1/raw/branch/main/documentation/pictures/instrument-1.png)
@@ -26,6 +27,9 @@ The modulated audio data are the amplitudes and panning of 64 sine wave oscillat
 
 ADSR control unit is also present (and modifiable by the video data) to further shape the sound. The instrument also consists of an effects unit and a step sequencer. Both the effects unit and the sequencer can be, with exceptions (Res and Type parametrs of the filter effect), configured to take the data, extracted from the video, to modulate the effects. Frequency shifter, waveshaper, chorus, delay, reverb and filter were picked due to a wide range of sound modifications, that can be achieved by combination of these effects. Output unit allows for audio driver settings, recording of the outgoing sound and gain, panning adjustments.
 
+
+<a name="instrument-2"></a>
+## instrument-2
 
 ![instrument-2](https://codeberg.org/davidhro/video-to-audio-synthesis-instrument-1/raw/branch/main/documentation/pictures/instrument-2.png)
 
