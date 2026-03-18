@@ -6,7 +6,7 @@
 * [instrument-1](#instrument-1)
 * [instrument-2](#instrument-2)
 * [Downloads](#downloads)
-* [Resources](#resources)
+* [Sources](#Sources)
 
 <a name="objectives"></a>
 ## Objectives
