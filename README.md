@@ -5,6 +5,7 @@
 * [Objectives](#objectives)
 * [instrument-1](#instrument-1)
 * [instrument-2](#instrument-2)
+* [Known issues](#issues)
 * [Downloads](#downloads)
 * [Sources](#Sources)
 
@@ -38,7 +39,8 @@ ADSR control unit is also present (and modifiable by the video data) to further 
 
 Manual on the use of this instrument is available in the documentation folder.
 
-### Known issues
+<a name="issues"></a>
+## Known issues
 * While being run on Linux (Mint) with Bottles, it is not possible to use camera to acquire the video data. Therefore it is needed to use a video file as an input in this configuration. Also the program was unable to detect an external MIDI device, which makes it practically unusable on Linux (with the tested configuration).
 
 
