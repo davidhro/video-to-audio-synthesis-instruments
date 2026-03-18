@@ -10,7 +10,7 @@
 
 <a name="objectives"></a>
 ## Objectives
-The primary goal of this work was to develop a software instrument, which takes video data as input and is able to synthesize audio from that input. In case of this instrument, an external MIDI device can be connected to play the instrument. The main challenge is to choose a right way to extract the data from the video along with the right way to synthesize or modulate the audio, in order to achieve something that sound interesting in the musical context.
+The primary goal of this work was to develop a software instrument, which takes video data as input and is able to synthesize audio from that input. In case of the first instrument, an external MIDI device can be connected to play the instrument. The main challenge was to choose a right way to extract the data from the video along with the right way to synthesize or modulate the audio, in order to achieve something that sound interesting in the musical context.
 
 
 <a name="instrument-1"></a>
