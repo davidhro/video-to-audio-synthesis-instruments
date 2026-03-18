@@ -54,4 +54,9 @@ Manual on the use of this instrument is available in the documentation folder.
 <a name="Sources"></a>
 ## Sources
 
-The main resources, which directly influenced the software are cited here. All of the resources (literature and so on) used to complete this instrument are cited in the full text of this thesis, available from the link in the [Downloads](#downloads) section. 
+The main resources, which directly influenced the software are cited here. All other resources (literature and so on) used to complete this instrument are cited in the full text of this thesis, available from the link in the [Downloads](#downloads) section. 
+
+* cv.jit package
+* lowkey.nw
+
+
