@@ -5,6 +5,7 @@
 * [Objectives](#objectives)
 * [instrument-1](#instrument-1)
 * [instrument-2](#instrument-2)
+* [Downloads](#downloads)
 * [Resources](#resources)
 
 <a name="objectives"></a>
@@ -41,9 +42,14 @@ Manual on the use of this instrument is available in the documentation folder.
 * While being run on Linux (Mint) with Bottles, it is not possible to use camera to acquire the video data. Therefore it is needed to use a video file as an input in this configuration. Also the program was unable to detect an external MIDI device, which makes it practically unusable on Linux (with the tested configuration).
 
 
-<a name="resources"></a>
-## Resources
-All of the resources (literature and so on) used to complete this instrument are cited in the full text of this thesis, available from the link below. 
+<a name="downloads"></a>
+## Downloads
+
 
 * Full text of the thesis (in Czech language): [Bachelor thesis](http://hdl.handle.net/11012/210871)
 * Executable (.exe) file with resources needed to run it can be downloaded as a .zip file from these links: [instrument-1.zip](https://drive.google.com/file/d/1lqDwZQ3CtoBVO8veQoWEQ5xt-jy_xjvu/view?usp=drive_link), [instrument-2.zip](https://drive.google.com/file/d/1l4vRzr397L26udH7BqvDsOe21kkAZbYE/view?usp=drive_link)
+
+<a name="Resources"></a>
+## Reources
+
+All of the resources (literature and so on) used to complete this instrument are cited in the full text of this thesis, available from the link in the [Downloads](#downloads) section. 
