@@ -58,7 +58,7 @@ Manual on the use of this instrument is available in the documentation folder.
 
 The main resources, which directly influenced the software are cited here. All other resources (literature and so on) used to complete this instrument are cited in the full text of this thesis, available from the link in the [Downloads](#downloads) section. 
 
-* cv.jit package
-* lowkey.nw
+* [cv.jit Max package](https://github.com/Cycling74/cv.jit)
+* [LowkeyNW Max package](https://github.com/nwolek/LowkeyNW)
 
 
