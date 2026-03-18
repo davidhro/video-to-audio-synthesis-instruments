@@ -56,7 +56,7 @@ Manual on the use of this instrument is available in the documentation folder.
 <a name="Sources"></a>
 ## Sources
 
-The main resources, which directly influenced the software are shown here. All other resources (literature and so on) used to complete this instrument are cited in the full text of this thesis, available from the link in the [Downloads](#downloads) section. Licenses for the external libraries used in this code are available in the THIRD PARTY LICENSES folder.
+The main resources, which directly influenced the software are shown here. All other resources (literature and so on) used to complete this instrument are cited in the full text of this thesis, available from the link in the [Downloads](#downloads) section. Licenses for the external libraries used in this code are available in the [THIRD PARTY LICENSES ](https://codeberg.org/davidhro/video-to-audio-synthesis-instruments/src/branch/main/THIRD%20PARTY%20LICENSES) folder.
 
 * [cv.jit Max package](https://github.com/Cycling74/cv.jit)
 * [LowkeyNW Max package](https://github.com/nwolek/LowkeyNW)
