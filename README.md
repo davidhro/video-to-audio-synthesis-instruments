@@ -5,6 +5,7 @@
 * [Objectives](#objectives)
 * [instrument-1](#instrument-1)
 * [instrument-2](#instrument-2)
+* [How to use the instrument](#how_to)
 * [Known issues](#issues)
 * [Downloads](#downloads)
 * [Sources](#Sources)
@@ -39,7 +40,22 @@ ADSR control unit is also present (and modifiable by the video data) to further 
 
 
 
-Manual on the use of this instrument is available in the documentation folder.
+
+
+<a name="how_to"></a>
+## How to use the instruments
+
+### Setup
+
+#### Option 1
+Download the .zip file which contains the instrument. Each .zip file contains the .exe file and dependecies needed to run it (link in the [Downloads](#downloads) section).
+
+#### Option 2
+Download the folder which corresponds to the instrument, then open the .maxproj file in Max 8 or higher.
+
+
+### 
+Detailed description of both instruments with a brief manual on their initial setup is available in the [Documentation](https://codeberg.org/davidhro/video-to-audio-synthesis-instruments/src/branch/main/documentation) folder.
 
 <a name="issues"></a>
 ## Known issues
