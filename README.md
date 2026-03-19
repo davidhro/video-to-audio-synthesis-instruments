@@ -24,7 +24,6 @@ The main challenge was to choose a right way to extract the data from the video 
 ![instrument-1](https://codeberg.org/davidhro/video-to-audio-synthesis-instrument-1/raw/branch/main/documentation/pictures/instrument-1.png)
 
 
-The whole project is made in Max visual programming language.
 
 The data, extracted from the video, are in this case coordinates of boundaries around objects in the image, found by a simple computer vision algorithm. This algorithm converts video to greyscale, then to binary (controlled by a threshold). The threshold at which a pixel is classified either as black or white can be set manually. The boundaries are then drawn around a continuous group of white pixels, which are not separated by any black pixels.
 
@@ -39,7 +38,11 @@ ADSR control unit is also present (and modifiable by the video data) to further 
 ![instrument-2](https://codeberg.org/davidhro/video-to-audio-synthesis-instrument-1/raw/branch/main/documentation/pictures/instrument-2.png)
 
 
+Video data is acquired either as a webcam feed or a video that can be dragged and dropped into the corresponding section. The data are pixel values of one of the three planes (red, green or blue) of the video on the input. The pixels can be scrolled through by the XY axis slider. 
 
+The audio is in this case imported as a .wav file (other file extensions not tested but might be possible to use). These audio files are played by turning on the transport toggle on the sequencer and toggling on any step in the corresponding row of the step sequencer. Parameters such as sample start, playback speed, panning, effects dry/wet setting and number of sequencer step can be automated by the video data. Tempo of the sequencer can be entered manually or controlled by the video data.
+
+Similar to instrument-1, this instrument also allows to control the effects by the video data (apart from the Res and Type filter effect parameters). Output unit works the same as in case of instrument-1.
 
 
 <a name="how_to"></a>
