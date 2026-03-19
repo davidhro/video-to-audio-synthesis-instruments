@@ -54,7 +54,7 @@ Download the .zip file which contains the instrument. Each .zip file contains th
 Download the folder which corresponds to the instrument, then open the .maxproj file in Max 8 or higher.
 
 
-### 
+### Documentation
 Detailed description of both instruments with a brief manual on their initial setup is available in the [Documentation](https://codeberg.org/davidhro/video-to-audio-synthesis-instruments/src/branch/main/documentation) folder.
 
 <a name="issues"></a>
