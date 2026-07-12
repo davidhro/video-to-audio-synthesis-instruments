@@ -66,7 +66,7 @@ Detailed description of both instruments with a brief manual on their initial se
 
 * The sequencer steps on instrument-1 doesn't work as intended when it comes to the ON/OFF buttons on each step. The buttons tend to be ON most of the time even when they are turned OFF.
 
-* On instrument-2 it is sometimes needed to modify the sample starting point (either by hand or by switching the automation on) so that the sample starts playing.
+* On instrument-2 it is sometimes needed to modify the sample starting point (either by hand or by switching the automation ON, then OFF) so that the sample starts playing.
 
 
 
