@@ -64,6 +64,8 @@ Detailed description of both instruments with a brief manual on their initial se
 ## Known issues
 * While being run on Linux (Mint) with Bottles, it is not possible to use camera to acquire the video data. Therefore it is needed to use a video file as an input in this configuration. Also the program was unable to detect an external MIDI device, which makes it practically unusable on Linux (with the tested configuration).
 
+* The sequencer steps on instrument-1 doesn't work as intended when it comes to the ON/OFF buttons on each step. The buttons tend to be ON most of the time even when they are turned OFF.
+
 
 <a name="downloads"></a>
 ## Downloads
