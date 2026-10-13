@@ -21,7 +21,7 @@ The main challenge was to choose a right way to extract the data from the video 
 ## instrument-1
 
 
-![instrument-1](https://codeberg.org/davidhro/video-to-audio-synthesis-instrument-1/raw/branch/main/documentation/pictures/instrument-1.png)
+![instrument-1](documentation/pictures/instrument-1.png)
 
 
 
@@ -35,7 +35,7 @@ ADSR control unit is also present (and modifiable by the video data) to further 
 <a name="instrument-2"></a>
 ## instrument-2
 
-![instrument-2](https://codeberg.org/davidhro/video-to-audio-synthesis-instrument-1/raw/branch/main/documentation/pictures/instrument-2.png)
+![instrument-2](documentation/pictures/instrument-2.png)
 
 
 Video data is acquired either as a webcam feed or a video that can be dragged and dropped into the corresponding section. The data are pixel values of one of the three planes (red, green or blue) of the video on the input. The pixels can be scrolled through by the XY axis slider. 
@@ -58,7 +58,7 @@ Download the folder which corresponds to the instrument, then open the .maxproj 
 
 
 ### Documentation
-Detailed description of both instruments with a brief manual on their initial setup is available in the [Documentation](https://codeberg.org/davidhro/video-to-audio-synthesis-instruments/src/branch/main/documentation) folder.
+Detailed description of both instruments with a brief manual on their initial setup is available in the [Documentation](/documentation) folder.
 
 <a name="issues"></a>
 ## Known issues
@@ -80,7 +80,7 @@ Detailed description of both instruments with a brief manual on their initial se
 <a name="Sources"></a>
 ## Sources
 
-The main resources, which directly influenced the software are shown here. All other resources (literature and so on) used to complete the instruments are cited in the full text of this thesis, available from the link in the [Downloads](#downloads) section. Licenses for the external libraries used in this code are available in the [THIRD PARTY LICENSES ](https://codeberg.org/davidhro/video-to-audio-synthesis-instruments/src/branch/main/THIRD%20PARTY%20LICENSES) folder.
+The main resources, which directly influenced the software are shown here. All other resources (literature and so on) used to complete the instruments are cited in the full text of this thesis, available from the link in the [Downloads](#downloads) section. Licenses for the external libraries used in this code are available in the [THIRD PARTY LICENSES ](THIRD%20PARTY%20LICENSES) folder.
 
 * [cv.jit Max Package](https://github.com/Cycling74/cv.jit)
 * [LowkeyNW Max Package](https://github.com/nwolek/LowkeyNW)
