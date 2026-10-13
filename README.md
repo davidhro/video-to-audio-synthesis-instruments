@@ -73,7 +73,7 @@ Detailed description of both instruments with a brief manual on their initial se
 ## Repository structure
    Path | Content |
  |---|---|
- | `instrument-1/`, `instrument-2/` | The instruments — the `.maxpat` patcher files **are the source code**, open them in Max 8+ |
+ | `instrument-1/`, `instrument-2/` | The instruments — the `.maxpat` patcher files can only be opened in Max 8+ |
  | `documentation/` | Full description of both instruments and setup manual |
  | `documentation/pictures/` | GUI of both instruments |
  | `THIRD PARTY LICENSES/` | Licenses of external Max packages used |
