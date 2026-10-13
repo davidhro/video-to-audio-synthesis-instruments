@@ -5,7 +5,7 @@ bachelor thesis (2023): they extract data from live or recorded video and use it
 synthesize and modulate sound. Instrument 1 is a 64-oscillator additive synth played via
 MIDI; instrument 2 is a video-controlled sampler.
 
-**Listen:** [Instrument 1 demo](https://drive.google.com/file/d/1h_kkDa8VCl-hnlzlQptP27Hxi5lpeETL/view?usp=drive_link) · [Instrument 2 demo](https://drive.google.com/file/d/1jOBMnOJvPFPXbbcbaZu43ra7Hgabyusv/view?usp=drive_link)
+**Demo:** [Instrument 1 demo](https://drive.google.com/file/d/1h_kkDa8VCl-hnlzlQptP27Hxi5lpeETL/view?usp=drive_link) · [Instrument 2 demo](https://drive.google.com/file/d/1jOBMnOJvPFPXbbcbaZu43ra7Hgabyusv/view?usp=drive_link)
 
 ### Requirements
 * **Option 1 (standalone .exe):** Windows only, no Max license needed.
