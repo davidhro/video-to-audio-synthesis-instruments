@@ -36,7 +36,6 @@ The main challenge was to choose the right way to extract the data from the vide
 
 ![instrument-1](documentation/pictures/instrument-1.png)
 
-**Demo:** [instrument-1-demo.mp3](documentation/audio/instrument-1-demo.mp3)
 
 The data, extracted from the video, are in this case coordinates of boundaries around objects in the image, found by a simple computer vision algorithm. This algorithm converts video to greyscale, then to binary (controlled by a threshold). The threshold at which a pixel is classified either as black or white can be set manually. The boundaries are then drawn around a continuous group of white pixels, which are not separated by any black pixels.
 
@@ -49,7 +48,6 @@ ADSR control unit is also present (and modifiable by the video data) to further 
 
 ![instrument-2](documentation/pictures/instrument-2.png)
 
-**Demo:** [instrument-2-demo.mp3](documentation/audio/instrument-2-demo.mp3)
 
 Video data is acquired either as a webcam feed or a video that can be dragged and dropped into the corresponding section. The data are pixel values of one of the three planes (red, green or blue) of the video on the input. The pixels can be scrolled through by the XY axis slider.
 
@@ -77,7 +75,7 @@ Detailed description of both instruments with a brief manual on their initial se
  |---|---|
  | `instrument-1/`, `instrument-2/` | The instruments — the `.maxpat` patcher files **are the source code**, open them in Max 8+ |
  | `documentation/` | Full description of both instruments and setup manual |
- | `documentation/audio/` | MP3 demos of both instruments |
+ | `documentation/pictures/` | GUI of both instruments |
  | `THIRD PARTY LICENSES/` | Licenses of external Max packages used |
 
 <a name="known-issues"></a>
